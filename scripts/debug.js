@@ -17,4 +17,4 @@ manifest.meta.display_name = 'Frank Dev'
 try {
   mkdirSync(path.resolve(__dirname, '../dist/'));
 } catch (err) {}
-writeFileSync(path.resolve(__dirname, '../dist/manifest.json'), JSON.stringify(manifest, null, 2));
+writeFileSync(path.resolve(__dirname, '../dist/manifest.json'), JSON.stringify(manifest, null, 3));
